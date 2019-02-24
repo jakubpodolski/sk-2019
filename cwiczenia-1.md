@@ -31,6 +31,7 @@ aby załączyć obrazek
 
 ![alt schemat](images/my-network-schema.png)
 ```
+[alt schemat](images/cw-1_network_scheme.png)
 
 nmcli -> shows available network devices
 ifup 'device name' -> enables network card 
