@@ -11,13 +11,13 @@ Wejściowe parametry sieci
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
-|   PC 1 |  
-| IP - address  | | |
-| MASKA  | | |
+|   PC 1 | ubuntu | |
+| IP - address  | 10.0.5.5 | |
+| MASKA  | /24c | |
 |   |  | |
-| PC 2  |  | |
-| IP - address  | | |
-| MASKA  | | |
+| PC 2  | centOS | |
+| IP - address  | 10.0.5.4 | |
+| MASKA  | /24 | |
 
 Weryfikacja połączenia
 
@@ -81,7 +81,7 @@ Warto wiedzieć
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
-| Lokalizacja pliku z konfiguracją sieci| ip a | działa w centos  |
+| Lokalizacja pliku z konfiguracją sieci| ip a | działa w centos i ubuntu |
 | UP -> Wyłączenie interfejsu sieciowego| ifup <nazwa karty> | |
 | DOWN -> Włączenie interfejsu sieciowego| ifdown <nazwa karty> | |
 | Sprawdzenie obecnych parametrów | | |
@@ -89,4 +89,6 @@ Warto wiedzieć
 | Które interfejsy jakie porty słuchają | | |
   
   cat /etc/resolv.conf
+  centOS -> sudo su; yum install <package>
 
+  gdy adresy są takie same to zmienić ustawienia w vierual box'ie -> globalne ustawienia-s
