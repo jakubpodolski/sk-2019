@@ -92,3 +92,5 @@ Warto wiedzieć
   centOS -> sudo su; yum install <package>
 
   gdy adresy są takie same to zmienić ustawienia w vierual box'ie -> globalne ustawienia-s
+
+  systemctl stop firewalld -> wyłaczenie firewallów 
