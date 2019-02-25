@@ -81,10 +81,12 @@ Warto wiedzieć
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
-| Lokalizacja pliku z konfiguracją sieci| | |
-| UP -> Wyłączenie interfejsu sieciowego| | |
-| DOWN -> Włączenie interfejsu sieciowego| | |
+| Lokalizacja pliku z konfiguracją sieci| ip a | działa w centos  |
+| UP -> Wyłączenie interfejsu sieciowego| ifup <nazwa karty> | |
+| DOWN -> Włączenie interfejsu sieciowego| ifdown <nazwa karty> | |
 | Sprawdzenie obecnych parametrów | | |
 | lista wszystkich interfejsów | | |
 | Które interfejsy jakie porty słuchają | | |
+  
+  cat /etc/resolv.conf
 
