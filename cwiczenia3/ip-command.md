@@ -28,7 +28,7 @@ ip
 |   ``addr``    |                               | infirmacje o adresacji i własnościach interfejsów |
 |               |   ``ip addr``                 | informacja o wszystkich interfejsach              |
 |               |   ``ip addr show dev enp0s3`` | informacja o konkretnym interfejsie               |
-|    ``add``   |  ``ip addr add 172.16.100.10/24 dev enp0s3`` | ustawienie adresu na karcie  |
+|    ``add``   |  ``ip addr add 172.16.100.10/24 dev enp0s3`` | ustawienie adresu ``172.16.100.10/24`` na karcie ``enp0s3`` |
 |   ``link``    |   ``ip link set enp0s3 down`` ``ip link set enp0s3 up``   | zrestartowanie kart |
 |   ``route``   |  | |
 |   ``maddr``   |  | |
@@ -53,7 +53,7 @@ Zadanie
 ![zadanie 3.1](cwiczenia3.1.svg) 
 
 
-nano /etc/host -> zmiana nazwy pc     DEBIAN
+nano /etc/host -> zmiana nazwy pc     DEBIAN/CENTOS
 nano /etc/hostname -> zmiana nazwy pc DEBIAN
 
 
