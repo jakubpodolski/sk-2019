@@ -28,11 +28,13 @@ ip
 |   ``addr``    |                               | infirmacje o adresacji i własnościach interfejsów |
 |               |   ``ip addr``                 | informacja o wszystkich interfejsach              |
 |               |   ``ip addr show dev enp0s3`` | informacja o konkretnym interfejsie               |
+|     ``add``   |  ``ip addr add 172.16.100.10/24 dev enp0s3`` | dodanie ip do urządzenia |
 |   ``link``    |                               |  |
 |   ``route``   |  | |
 |   ``maddr``   |  | |
 |   ``neigh``   |  | |
 |   ``help``    |  | |
+
 
 Zadanie
 ------------
@@ -49,3 +51,7 @@ Zadanie
 3.4 Przygotuj dokumentację pisemno obrazkową z wykonania zadania w formacie ``markdown`` zamieść ją w serwisie ``github.com`` obok obocnego tematu ``cwiczenia-3``
 
 ![zadanie 3.1](cwiczenia3.1.svg) 
+
+
+nano /etc/host -> zmiana nazwy pc
+nano /etc/hostname -> zmiana nazwy pc
