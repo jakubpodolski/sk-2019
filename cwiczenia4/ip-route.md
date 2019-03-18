@@ -20,7 +20,7 @@ ip
 Zadanie
 ------------
 
-![zadanie 4](cwiczenia4.svg)
+![zadanie 4](cw-4.svg)
 
 1.
    * Przygotuj konfigurację sieci zgodnie z powyższym diagramem, 
