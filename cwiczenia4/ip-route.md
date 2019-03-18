@@ -14,7 +14,8 @@ ip
 | subcommand    |  polecenie   | opis  |
 | ------------- |:-------------| :---------------| 
 |   ``route``    |   ``ip route show ``  | pokazuje routing |
-|               |   ``ip route add``             | |
+|   ``add``            |   ``ip route add``             | dodaje do tablicy routing np: ``ip route add default via 10.0.10.1 dev enp0s3``  |
+
 
 
 Zadanie
