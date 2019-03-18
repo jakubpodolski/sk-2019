@@ -16,7 +16,9 @@ ip
 |   ``route show``  |   ``ip route show ``  | pokazuje routing |
 |   ``route add``   |   ``ip route add``  | dodaje do tablicy routing np: ``ip route add default via 10.0.10.1 dev enp0s3`` |
 |   ``route get``   |   ``ip route get``  | sprawdzenie gdzie konkretny adres zostanie wysłany np: ``ip route get 8.8.8.8`` |
+
 gdzie 10.0.10.1 to router (PC0)
+cat /proc/sys/net/ipv4/ip_forward -> pokazuje czy system obsługuje forwardowanie (musi być 1) 
 
 
 
