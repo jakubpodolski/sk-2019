@@ -10,3 +10,4 @@
 1. Dla każdej z maszyn upewnić się że forword'owanie jest ustawione na 1 ```cat /proc/sys/net/ipv4/ip_forward```
 2. Ustawić przekierowywanie do router poleceniem ```ip route add default via 10.0.10.1 dev enp0s3``` (10.0.10.1 to router)
 3. Reszta się dzieje sama XDD
+4. Przetestować połączenie z PC1 z PC3 poleceniem ```ping```
