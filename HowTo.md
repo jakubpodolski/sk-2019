@@ -14,7 +14,8 @@
 
 # III ZAPISANIE STANU 
 1. nano /etc/network/interfaces
-2. dopisać ```iface enp0s3 inet static```  
+2. dopisać  
+```iface enp0s3 inet static```  
            ```addres 192.168.100.1```  
            ```netmask 255.255.255.0```  
 3. by się automatycznie odpalał to ```auto enp0s3```
