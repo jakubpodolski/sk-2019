@@ -14,11 +14,12 @@
 
 # III ZAPISANIE STANU 
 1. nano /etc/network/interfaces
-2. dopisać  
+2. by się automatycznie odpalał to ```auto enp0s3```
+3. dopisać  
 ```iface enp0s3 inet static```  
            ```addres 192.168.100.1```  
            ```netmask 255.255.255.0```  
-3. by się automatycznie odpalał to ```auto enp0s3```
+
 4. tak zrobić dla każdej z kart sieciowych 
 5. by działało routowanie ``up ip route add 192.168.0.0/24 via 192.168.200.2``
 6. jeśli padnie to        ``down ip route del 192.168.0.0/24``              
