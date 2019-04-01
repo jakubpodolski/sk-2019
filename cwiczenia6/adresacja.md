@@ -161,3 +161,4 @@ Zadanie
     * D – 500 użytkowników
     * E – 2 użytkowników.
     
+https://docs.google.com/spreadsheets/d/1RHGjv0P3V5Eo_Ld28spYwlL6BHKU5A3kEgiu4yonygM/edit#gid=0 (link do doca z obliczeniami)
