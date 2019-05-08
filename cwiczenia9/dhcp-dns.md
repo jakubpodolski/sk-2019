@@ -52,3 +52,6 @@ Zadanie do domu
 ``wireshark`` https://www.wireshark.org
 2. Przetestuj komunikację z ``http-chat`` dla nowo zainstalowanego systemu
   
+  
+apt-get install isc-dhcp-server
+
