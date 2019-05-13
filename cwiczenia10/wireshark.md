@@ -16,3 +16,12 @@ Zadanie
    * 
    
       
+/////
+
+w udp połączenie nie musi być ustawionoe jawnie na poziomie kodu 
+w udp nie ma weryfikacji że połączenie zostało ustanowione 
+1.http-chat połączenie
+  zobaczyć wireshark'iem jak lecą pakiety 
+2. odpalić program python 
+
+Na następnych ip tables (firewall)
