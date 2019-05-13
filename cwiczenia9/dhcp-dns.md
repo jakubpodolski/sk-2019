@@ -1,4 +1,4 @@
-DNS - Network address translation
+DNS - Domain name server
 ----------------------------------
 
   * http://www.thekelleys.org.uk/dnsmasq/doc.html
