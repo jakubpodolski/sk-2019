@@ -89,3 +89,16 @@ iptables -A -i <interface> -p <protocol (tcp/udp) -s <source> --dport <port> -j 
    * zapewnij aby konfiguracja została załadowana po każdym uruchomieniu systemu
    * sprawdź konfigurację wykonując testowe polączenie na wskazanych wyżej portach
    * zweryfikuj brak możliwości ustanowienia połączenia na porcie 22 (SSH)
+
+
+HOW TO: 
+1. Dwie maszyny ( w PC0, trzy karty: Nat , Siec Nat, host only
+2. PC0 (3 interfejsy up)
+3. iptables -S (pokazanie firewall)  \\ iptables -P INPUT ACCEPT (zaakceptowanie wszystkich wychodzących)
+Należey pamiętać, że z ssh musi być włączony (np jeżeli go zdropujemy, to nie będzie zdalnego dostępu) \\ iptables -F (default)
+4. iptables -P (domyślna polityka) INPUT DROP
+5. iptables (-t domyślnie) -A INPUT -i lo -j ACCEPT
+6. iptables -A INPUT -p tcp --dport 22 -s 149.153.0.0/16 -j ACCEPT
+7. iptables-save > /etc/iptables.up.rules (zapisanie ustawień), potem nano /etc/network/interfaces
+
+
