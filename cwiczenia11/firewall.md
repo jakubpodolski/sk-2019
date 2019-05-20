@@ -15,10 +15,13 @@
 
 ### łańcuchy / chains iptab
 Ograniczenie tego co przychodzi
+
 ![input](input.svg)
 Ograniczenie tego co wychodzi
+
 ![output](output.svg)
 Ograniczenie tego co przechodzi 
+
 ![forward](forward.svg)
 
 
