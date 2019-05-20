@@ -14,11 +14,11 @@
 |   ``mangle``    |  modyfikacje, (ex. TTL       |
 
 ### łańcuchy / chains iptab
-
+Ograniczenie tego co przychodzi
 ![input](input.svg)
-
+Ograniczenie tego co wychodzi
 ![output](output.svg)
-
+Ograniczenie tego co przechodzi 
 ![forward](forward.svg)
 
 
@@ -27,17 +27,17 @@
 |   ``INPUT``    |                               |
 |   ``OUTPUT``    |                              |
 |   ``FORWARD``    |                             |
-|   ``PREROUTING``    |                          |
-|   ``POSTROUTING``    |                         |
+|   ``PREROUTING``    |przed rozwiązaniem routingu|
+|   ``POSTROUTING``    |po rozwiązaniem routingu|
 
 ### co zrobić / target (-j)
 
 |     |  przeznaczenie   | 
 | ------------- |:-------------| 
 |   ``ACCEPT``    |                               |
-|   ``DROP``    |                              |
-|   ``REJECT``    |                             |
-|   ``LOG``    |                             |
+|   ``DROP``    |jawne odrzucenie pakietu (wysłanie zwrotki)|
+|   ``REJECT``    |brak odpowiedzi o odmowie (np timeout)|
+|   ``LOG``    |do logu systemowego|
 
 
 ### Użycie
@@ -45,6 +45,8 @@
 ```bash
 iptables -A -i <interface> -p <protocol (tcp/udp) -s <source> --dport <port> -j <target>
 ```
+-A append
+-D delete
 
 ### wykorzystanie
 
