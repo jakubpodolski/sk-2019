@@ -45,3 +45,10 @@
 * W specyfikacji uwzględnij wielkości sieci oraz ich adresy
 * W specyfikacji uwzględnij konfigurację tablicy routingu
 * Dokumentację graficzną stworzonej architektury przygotuj w programie ``DIA`` lub podobnym
+
+
+
+
+
+Router na wejściu -> rodziela na 4 podsieci (na podanym adresie mamy dostępne 8 pod sieci, po maksymalnie 30 hostów w podsieciach) 
+Tablica routing'u, firewall, 
