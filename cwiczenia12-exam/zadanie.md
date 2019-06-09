@@ -37,7 +37,7 @@
 * Dla uniknięcia zbyt słabego zasięgu sieć WiFi zostanie wyposażona w 4 urządzenia nadawcze na każdej kondygnacji
  
 
-#### zadanie - wymaganai
+#### zadanie - wymagania
 
 * Dokonaj podziału i projektu sieci w formie dokumentu w formacie ``MARKDOW`` zawierającego specyfikację tekstową oraz obrazkową
   projektowanej sieci
@@ -48,7 +48,9 @@
 
 
 
+# Rozwiązanie
 
+Obliczenia: https://docs.google.com/spreadsheets/d/1RHGjv0P3V5Eo_Ld28spYwlL6BHKU5A3kEgiu4yonygM/edit#gid=1278232427
 
 Router na wejściu -> rodziela na 4 podsieci (na podanym adresie mamy dostępne 8 pod sieci, po maksymalnie 30 hostów w podsieciach) 
 Tablica routing'u, firewall, 
