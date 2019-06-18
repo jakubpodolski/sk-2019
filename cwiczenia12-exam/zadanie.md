@@ -49,6 +49,7 @@
 
 
 # Rozwiązanie
+![schemat](schemat.svg)
 
 Obliczenia: https://docs.google.com/spreadsheets/d/1RHGjv0P3V5Eo_Ld28spYwlL6BHKU5A3kEgiu4yonygM/edit#gid=1278232427
 
